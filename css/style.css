@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+*{box-sizing: border-box}
+body{
+	font-size: 16px; color: #DD292C; font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; margin: 0
+}
+.img-100{width: 100%; height: auto
+}
+.header{
+	width: 100%;height: 60px; background: #FDB14D
+}
+.container{
+	width: 80%;margin: 0 auto
+}
+.logo{
+	float: left;
+}
+.menu {
+	float: right; padding-top: 20px
+}
+.menu a{
+	padding: 10px 10px; text-decoration: none; font-size: 16px; color: white
+}
+.menu a:hover{
+	color: #5AC7F0
+}
+.main{
+	width:100%; min-height: 500px
+}
+.w-25{
+	width: 25%; padding: 15px; float: left
+}
+.vien{
+	border: 1px solid blue; padding: 10px; border-radius: 10px; text-align: center; margin-top: 30px
+}
+.bo-goc{
+	border-radius: 10px
+}
+.text-xanh{
+	color: blue
+}
+.text-do{
+	color: red
+}
+footer{
+	width: 100%;height: 50px; background-color: #FDB14D; clear: both; color: white; text-align: center; line-height: 50px;font-weight: bold
+}
+.w-30{
+	width: 30%; min-height: 400px; padding: 15px; background-color: antiquewhite; float: left
+}
+.w-70{
+	width: 70%; min-height: 400px; padding: 15px; background-color: white; float: right
+}
+.vien-xam{
+	width: 100%; min-height: 300px; border: 1px solid #221818; border-radius: 10px; padding: 10px; margin-top: 20px
+}
+.btn{
+	padding: 10px 20px; background-color: blue; color: white; border-radius: 10px; border: none; cursor: pointer
+}
+.btn:hover{
+	background-color: #1D27A6
+}
+.form-control{
+	padding: 8px; margin: 8px 0;width: 100%; margin-left: 0 auto
+}
+.form-control-1{
+	padding: 8px; margin: 8px 0;width: 100%; margin: auto
+}
+.btn-reset{
+	padding: 10px 20px; background-color: blue; color: white; border-radius: 10px; border: none; cursor: pointer; margin-left: 15px
+}
+.btn-reset:hover{
+	background-color: #1D27A6
+}
